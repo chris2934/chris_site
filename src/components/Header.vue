@@ -2,24 +2,36 @@
     <div>
         <h2>Nav Bar</h2>
         <nav>
-            <router-link v-for="routes in links" 
+            <router-link class="spacing" v-for="routes in links" 
                          v-bind:key="routes.id" 
-                         :to="`${routes.page}`"></router-link>
+                         :to="`${routes.page}`">{{routes.text}}</router-link>
         </nav>
     </div>
 </template>
 
 <script>
 export default {
-  name:'Navigation',
+  name:'Header',
   data () {
     return {
-      links: [{
+      links: [
+        {
           id: 0,
-          text: 'Hello World',
-          page: '/HelloWorld'
-      }]
+          text: 'Main',
+          page: '/MainContent'
+        },
+        {
+          id: 1,
+          text: 'About',
+          page: '/About'
+        }
+      ]
     };
   },
 }
 </script>
+<style scoped>
+.spacing {
+  margin-right: 10px;
+}
+</style>

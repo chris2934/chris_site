@@ -10,11 +10,12 @@
 </template>
 
 <script>
-import articleContainer from "./article.vue";
+import articleContainer from "./Article.vue";
 import Accessibility from "../mixins/Accessibility.js";
 import FakePosts from "../data/posts.js";
 
 export default {
+  name: 'MainContent',
   data: function() {
     return {
       Posts: []
