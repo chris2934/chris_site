@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import articleContainer from "./Article.vue";
+import articleContainer from "../components/Article";
 import Accessibility from "../mixins/Accessibility.js";
 import FakePosts from "../data/posts.js";
 
