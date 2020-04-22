@@ -13,6 +13,7 @@
 <script>
 import Accessibility from "../mixins/Accessibility.js";
 export default {
+  name: 'Article',
   props: {
     title: String,
     value: {
@@ -51,7 +52,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .article {
   width: 95%;
