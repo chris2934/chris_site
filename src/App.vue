@@ -1,27 +1,27 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png" alt="Vue js official logo" />
-    <Header />
-    <MainContent />
+    <!-- <img class="logo" src="./assets/logo.png" alt="Vue js official logo" /> -->
+    <!-- <Header /> -->
+    <!-- <MainContent /> -->
   </div>
 </template>
 
 <script>
-import MainContent from "./components/MainContent";
-import Header from "./components/Header"
+//import MainContent from "./components/Blog/MainContent";
+//import Header from "./components/Blog/Header"
 
 export default {
   name: "App",
   components: {
-    MainContent,
-    Header
+    //MainContent,
+    //Header
   }
 };
 </script>
 
 <style>
 body {
-  background-color: grey;
+  background-color: white;
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
