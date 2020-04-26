@@ -1,6 +1,6 @@
 <template>
   <div class="article">
-    <img src="../../assets/logo.png" />
+    <img src="./../assets/logo.png" />
     <h1>{{ title }}</h1>
     <p v-if="showingSnippets">{{ snippets }}</p>
     <p v-else>{{ value }}</p>
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Accessibility from '../../mixins/Accessibility.js'
+import Accessibility from "../mixins/Accessibility.js";
 export default {
   name: 'Article',
   props: {
