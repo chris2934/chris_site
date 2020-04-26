@@ -13,6 +13,6 @@ export default {
 <style lang="scss">
 #me {
     width: 200px;
-    border-radius: 50%
+    border-radius: 15%
 }
 </style> 
