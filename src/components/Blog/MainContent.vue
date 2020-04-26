@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import articleContainer from "../Blog/Article";
-import Accessibility from "../../mixins/Accessibility.js"
-import FakePosts from "../../data/posts.js";
+import articleContainer from "../components/Article";
+import Accessibility from "../mixins/Accessibility.js";
+import FakePosts from "../data/posts.js";
 
 export default {
   name: 'MainContent',
