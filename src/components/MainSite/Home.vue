@@ -1,0 +1,13 @@
+<template>
+    <div>
+        <p>
+            linkedIn
+        </p>
+        <p>
+            github
+        </p>
+        <p>
+            musings
+        </p>
+    </div>
+</template>
