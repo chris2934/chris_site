@@ -24,6 +24,9 @@
                     </v-btn>
                 </div>
             </div>
+            <div class="about">
+            <p>Im currently a Senior Software Engineer for GE Aviation <br/> creating front end solutions in Vuejs.</p>
+            </div>
         </div>
         <div id ="me">
             <MainImage />
@@ -67,5 +70,6 @@ export default {
 }
 .about {
     margin-top: 15px;
+    text-align: center;
 }
 </style>
