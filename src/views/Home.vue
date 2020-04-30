@@ -1,16 +1,16 @@
 <template>
     <div>
-        <Links />
+        <Content />
     </div>
 </template>
 <script>
-import Links from '@/components/MainSite/Links'
+import Content from '@/components/MainSite/Content'
 
 export default {
     name: 'Home',
     components: {
-        Links,
+        Content,
     }
     
 }
-</script> 
+</script>

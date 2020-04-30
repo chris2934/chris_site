@@ -1,6 +1,5 @@
 <template>
   <div class="article">
-    <img src="./../assets/logo.png" />
     <h1>{{ title }}</h1>
     <p v-if="showingSnippets">{{ snippets }}</p>
     <p v-else>{{ value }}</p>
