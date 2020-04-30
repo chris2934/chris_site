@@ -47,6 +47,7 @@ export default {
 .card {
 	height: 80vh; 
 	display: flex;
+    flex-wrap: wrap;
 	align-items: center; 
 	justify-content: center;
 }
